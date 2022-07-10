@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 5vw;
+  height: 5vh;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
+  color: white;
+  letter-spacing: 1.5px;
+}
+.header-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: white;
+}
+.header-menu > li {
+  cursor: pointer;
+}
+
+.header-menu > li:hover {
+  color: var(--orange);
+}
