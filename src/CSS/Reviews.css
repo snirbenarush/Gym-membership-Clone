@@ -70,10 +70,10 @@
   display: flex;
   gap: 1rem;
   position: absolute;
-  bottom: -2.4vh;
-  left: 82vw;
+  bottom: -3.4vh;
+  left: 72vw;
 }
 .arrows > img {
-  width: 2rem;
+  width: 2vw;
   cursor: pointer;
 }
